@@ -2,10 +2,12 @@ import './App.css';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
+import Animation from './components/Animation';
 
 function App() {
   return (
     <>
+      <Animation />
       <Navbar />
 
       <div className="container-fluid p-0">

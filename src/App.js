@@ -1,30 +1,13 @@
 import './App.css';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-        <a className="navbar-brand js-scroll-trigger" href="#page-top">
-          <span className="d-block d-lg-none">Kevin Aboy</span>
-          <span className="d-none d-lg-block">
-            <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/images/profile.jpg" alt="Kevin Aboy smiling" />
-          </span>
-        </a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
-            className="navbar-toggler-icon"></span></button>
-        <div className="collapse navbar-collapse" id="navbarResponsive">
-          <ul className="navbar-nav">
-            <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">About</a></li>
-            <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-            <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#education">Education</a></li>
-            <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-            <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-            {/* <!-- <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-      <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#awards">Awards</a></li> --> */}
-          </ul>
-        </div>
-      </nav>
+      <Navbar />
+
       <div className="container-fluid p-0">
         <section className="resume-section" id="about">
           <div className="resume-section-content">
@@ -228,33 +211,10 @@ function App() {
           </div>
         </section>
 
-        <section className="resume-section" id="portfolio">
-          <div className="resume-section-content">
-            {/*
-      <!-- <h2 className="mb-5">Portfolio</h2> -->
-      <!-- <p>Coming soon...</p> --> */}
-            <div className="container">
-              <div className="row">
-                <div className="col-sm-12 col-md-4">
-                  <div className="card" >
-                    <img className="card-img-top" src="assets/images/run_buddy.jpg" alt="Card image cap" />
-                    <div className="card-body">
-                      <h5 className="card-title">Run Buddy</h5>
-                      <p className="card-text">Created a landing page for Run Buddy, a service that lets runners sign up for
-                        personal training using HTML5 and CSS3. Managed code using a popular version control system called
-                        Git. The websites on this page were deployed using GitHub Pages.</p>
-                      <a href="https://kevinaboy.github.io/run-buddy/" className="card-link">View website</a>
-                      <br />
-                      <a href="https://github.com/kevinaboy/run-buddy" className="card-link">View repo</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Portfolio />
 
       </div >
+      <Footer />
     </>
 
   );

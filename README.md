@@ -1,8 +1,8 @@
 # React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is a recreation of my original [portfolio](https://github.com/kevinaboy/portfolio) created with a Bootstrap 4 resume theme [created by Start Bootsrap](https://github.com/startbootstrap/startbootstrap-resume).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is a recreation of my original [portfolio](https://github.com/kevinaboy/portfolio).
 
-
+**Website**: https://kevinaboy.github.io/portfolio-react/
 
 ## Get Started with Create-React-App
 ### Available Scripts

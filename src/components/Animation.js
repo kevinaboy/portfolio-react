@@ -13,7 +13,7 @@ function Animation(props) {
   return (
     <>
       <BouncyDiv>
-        <h4>Welcome!</h4>
+        <h4 class="welcome">Welcome!</h4>
       </BouncyDiv>
     </>
   );

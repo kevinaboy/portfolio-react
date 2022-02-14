@@ -16,7 +16,7 @@ function Portfolio(props) {
             <div className="row">
               <div className="col-sm-12 col-md-4">
                 <div className="card" >
-                  <img className="card-img-top" src={runBuddyImg} alt="Card image cap" />
+                  <img className="card-img-top" src={runBuddyImg} alt="Run Buddy Home Page" />
                   <div className="card-body">
                     <h5 className="card-title">Run Buddy</h5>
                     <p className="card-text">Created a landing page for Run Buddy, a service that lets runners sign up for

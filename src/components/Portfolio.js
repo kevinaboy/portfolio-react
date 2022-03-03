@@ -27,9 +27,9 @@ function Portfolio(props) {
                 <!-- <h6 className="card-subtitle mb-2 text-muted">HTML, CSS, JAVASCRIPT, MAPBOX API</h6> --> */}
                     <p className="card-text">Marvelous is a web application that let's you search through various Marvel superheroes and villains. For example, type "spider-man" and receive 13 results to view from the Marvel Comics API! We also built a forum specifically for users to be able to comment and share their interest in the Marvel Universe.
                     </p>
-                    <a href="https://want-to-buy.herokuapp.com/" className="card-link">View website</a>
+                    <a href="https://marvelous-mern.herokuapp.com/" className="card-link">View website</a>
                     <br />
-                    <a href="https://github.com/taylorkeltgen/want-to-buy/" className="card-link">View repo</a>
+                    <a href="https://github.com/taylorkeltgen/marvelous" className="card-link">View repo</a>
                   </div>
                 </div>
               </div>
